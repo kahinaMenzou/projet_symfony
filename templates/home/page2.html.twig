@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Hello HomeController!{% endblock %}
+{%block body%}
+<header>
+<h1> MENZOU Kahina</h1>
+<h2>Architecte/Informaticienne</h2>
+
+<div>
+<ul id="nav">
+<li><a href="{{ path('home')}}">Accueil</a></li>
+<li><a href="/img/photo4.jpg">CV</a></li>
+<li><a href="{{ path('home_page')}}">Projects</a></li>
+</ul>
+</div>
+</header>
+<hr>
+
+<p><div class="hobbiess">
+<h3>Mes centres d'interet</h3>
+{% for hobbies in hobbies %}
+
+<ul><li>{{hobbies.nom}}</li>
+{{hobbies.description}}</ul>
+
+{% endfor %}
+
+</div></p>
+
+
+<footer>
+<h4>contact</h4>
+<ul>
+<li>Tél:0659558075</li>
+<li>e-mail:kahina.mnz@gmail.com</li>
+<ul>
+<p><div class="copy">
+© 2023 by Menzou Kahina.
+Proudly created Hichouka.com </div></p>
+</footer>
+
+
+{% endblock %}

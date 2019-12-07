@@ -1,0 +1,150 @@
+
+   
+@media screen and (min-width: 900px) {
+    body{
+        background-color: #076d07;
+      }
+    }
+    
+      
+      
+body{
+    background-color: rgb(199, 189, 189);
+    border-left: 3px black dotted;
+    margin-left:50px;
+    border-right: 3px black dotted;
+    margin-right:50px;
+    border-top: 3px black dotted;
+    margin-top:50px;
+    
+
+}
+#nav {
+	padding: 0; margin: 0;
+    text-align: center; /* centrer le texte */
+    margin-top:-110px;
+
+
+}
+#nav li {
+	
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+   
+
+
+}
+#nav a:hover {
+	display:inline-block;
+    margin: 0 30px;
+    color:red;
+}
+    #nav a {
+        display:inline-block;
+        margin: 0 30px;
+        color:black;
+
+
+}
+h2{
+margin:70px;  
+margin-top:-100px;   
+font: italic small-caps bold 20px/2 cursive;
+}
+h1{
+    margin:70px;
+    margin-top:-10px; 
+    font: italic small-caps bold 50px/2 cursive;
+}
+
+  
+.hello{
+    margin-left:600px;
+    font-size: 80px;
+    font: italic small-caps bold 90px/2 cursive;   
+    margin-top:-20px;    
+}
+.information{
+    
+     padding-right:150px; 
+     text-align:left; 
+     margin-left:650px;
+     margin-top:-60px;
+     font: italic small-caps bold 30px/2 cursive;      
+
+    
+}
+.parag
+{
+    position:relative;
+     text-align:center; 
+     margin-left:500px;
+     margin-top:250px;
+
+    
+ }
+.projet{
+    position:relative;
+    margin-left:650px;
+    margin-top:-350px;
+    display:inline-table;
+    background-color: rgb(153, 112, 112);
+    overflow:hidden;
+    border-radius:100px;
+    width:160px;
+    height:160px;
+    text-align: center;
+}
+.projet a{
+    
+        font-size: 40px;
+        color: grey
+        
+
+}
+
+    
+    
+    
+
+.hobbies{
+    position:relative;
+    margin-left:900px; 
+    margin-top:-365px; 
+    display:inline-table;
+    background-color: rgb(112, 75, 75);
+    overflow:hidden;
+    border-radius:100px;
+    width:160px;
+    height:160px;
+    text-align: center;
+}
+    .hobbies a{
+        font-size: 40px;
+     
+}
+.roundedImage{
+    position: absolute;
+      overflow:hidden;
+      border-radius:200px;
+      width:800px;
+      height:800px;
+      float:top;
+      margin-top: -600px;
+      margin-left:-10px;
+}
+section{
+    display: flex;
+    justify-content:left;
+}
+   
+
+footer{
+    background-color:rgb(139, 81, 206);
+    border-bottom: 3px black dotted;
+    margin-bottom:50px;
+    border:1px rgb(77, 20, 104) solid;
+}
+
+  

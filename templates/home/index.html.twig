@@ -1,0 +1,67 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+{%block body%}
+
+<header>
+<h1> MENZOU Kahina</h1>
+<h2>Architecte/Informaticienne</h2>
+
+<div>
+<ul id="nav">
+<li><a href="{{ path('home')}}">Accueil</a></li>
+<li><a href="/img/photo4.jpg">CV</a></li>
+<li><a href="{{ path('home_page')}}">Projets</a></li>
+</ul>
+</div>
+</header>
+
+<body>
+<p class="hello">Hello!</p>
+<p class="information"> Quelques infos sur moi:</p>
+
+<p><div class="parag">
+   Etudiante en master 2 informatique option:Informatique pour les sciences IPS, j'ai 
+   aussi un Master 2 en Architecture et conception durable. <br> Ce que j'aime en informatique est le détail, la diversité et le perfectionnement (Meme si, je galére souvent!! Haha! snif snif). 
+   voici le lien vers mon  <a href= "https://www.linkedin.com/feed/"> Linkedin </a><br>PS:Ce site est conçu avec Symfony!</div></p>
+
+
+    <p><div class="projet"
+
+<p><a href="{{ path('home_page')}}"> Mes projets</a></p>
+
+</div></p>
+
+ <p><div class="hobbies"
+
+<p><a href="{{ path('home_page2')}}"> centres d'interet</a></p>
+</div></p>
+
+<p><div class="roundedImage">
+<img src="/img/photo4.png" alt="photo">
+</div></p>
+
+</body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<footer>
+<h4>contact</h4>
+<ul>
+<li>Tél:0659558075</li>
+<li>e-mail:kahina.mnz@gmail.com</li>
+<ul>
+<p><div class="copy">
+© 2023 by Menzou Kahina.
+Proudly created Hichouka.com </div></p>
+</footer>
+
+
+
+
+{% endblock %}
